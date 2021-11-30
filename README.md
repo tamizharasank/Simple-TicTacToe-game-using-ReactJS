@@ -2,10 +2,11 @@
 
 # Installation Steps
 
-```cd repo-folder
+```
+   cd repo-folder
    npm install
    npm start
-
+```
 Application Demo -
 
 # To run a Application
