@@ -3,8 +3,8 @@
 # Installation Steps
 
 ```cd repo-folder
-npm install
-npm start```
+   npm install
+   npm start
 
 Application Demo -
 
