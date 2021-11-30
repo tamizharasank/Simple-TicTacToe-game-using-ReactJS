@@ -10,7 +10,7 @@ npm start
 
 Application Demo -
 ```
-  http://localhost:3000
+http://localhost:3000
 ```
 
 Development steps-
