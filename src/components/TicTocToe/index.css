@@ -1,0 +1,45 @@
+.board {
+  background: #eee;
+  height: 300px;
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 5rem auto;
+  box-shadow: 1px 1px 15px #ccc;
+  user-select: none;
+  cursor: pointer;
+}
+
+.tiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.tiles:active {
+  background-color: #fff;
+}
+
+.btn-reset {
+  display: inline-block;
+  color: #444;
+  border: 1px solid #ccc;
+  background: #ddd;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  vertical-align: middle;
+  max-width: 100px;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn-reset:active {
+  color: red;
+  box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.6);
+}
